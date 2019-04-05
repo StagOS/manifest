@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+ <!-- Stag remote -->
+  <remote  name="stag"
+           revision="p9"
+           fetch="https://github.com/StagOS/"  />
+
+ 
+ <!-- Remove the following projects as we are getting them from lineage/stag -->
+
+<!-- Framework -->
+<remove-project name="platform/frameworks/av" />
+<remove-project name="platform/frameworks/base" />
+<remove-project name="platform/frameworks/compile/mclinker" />
+<remove-project name="platform/frameworks/native" />
+<remove-project name="platform/frameworks/opt/net/wifi" />
+<remove-project name="platform/frameworks/opt/telephony" /> 
+<remove-project name="platform/frameworks/support" />
+
+<!-- General -->
+<remove-project name="platform/bionic" />
+<remove-project name="platform/bootable/recovery" />
+<remove-project name="platform/build" />
+<remove-project name="platform/build/soong" />
+<remove-project name="device/generic/arm64" />
+<remove-project name="device/generic/armv7-a-neon" />
+<remove-project name="device/generic/car" />
+<remove-project name="device/generic/common" />
+<remove-project name="device/generic/goldfish" />
+<remove-project name="device/generic/goldfish-opengl" />
+<remove-project name="device/generic/mips" />
+<remove-project name="device/generic/mips64" />
+<remove-project name="device/generic/mini-emulator-arm64" />
+<remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+<remove-project name="device/generic/mini-emulator-mips" />
+<remove-project name="device/generic/mini-emulator-mips64" />
+<remove-project name="device/generic/mini-emulator-x86" />
+<remove-project name="device/generic/mini-emulator-x86_64" />
+<remove-project name="device/generic/qemu" />
+<remove-project name="device/generic/uml" />
+<remove-project name="device/generic/x86" />
+<remove-project name="device/generic/x86_64" /> 
+<remove-project name="device/google/accessory/arduino" />
+<remove-project name="device/google/accessory/demokit" />
+<remove-project name="device/google/atv" />
+<remove-project name="device/google/contexthub" />
+<remove-project name="device/google/crosshatch" />
+<remove-project name="device/google/crosshatch-kernel" />
+<remove-project name="device/google/crosshatch-sepolicy" />
+<remove-project name="device/google/cuttlefish" />
+<remove-project name="device/google/cuttlefish_common" />
+<remove-project name="device/google/cuttlefish_kernel" />
+<remove-project name="device/google/marlin" />
+<remove-project name="device/google/marlin-kernel" />
+<remove-project name="device/google/muskie" />
+<remove-project name="device/google/taimen" />
+<remove-project name="device/google/vrservices" />
+<remove-project name="device/google/wahoo" />
+<remove-project name="device/google/wahoo-kernel" />
+<remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+<remove-project name="device/linaro/bootloader/edk2" />
+<remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+<remove-project name="device/linaro/hikey" />
+<remove-project name="device/linaro/hikey-kernel" /> 
+<remove-project name="platform/hardware/ril" />
+<remove-project name="platform/hardware/qcom/wlan" />
+<remove-project name="platform/hardware/qcom/bt" /> 
+<remove-project name="platform/hardware/qcom/gps" />  
+<remove-project name="platform/hardware/libhardware_legacy" />
+<remove-project name="platform/hardware/libhardware" />
+<remove-project name="platform/hardware/interfaces" />
+<remove-project name="platform/external/perfetto" />
+<remove-project name="platform/external/tinycompress" />
+<remove-project name="platform/prebuilts/build-tools" />
+<remove-project name="platform/system/core" />
+<remove-project name="platform/system/bt" />
+<remove-project name="platform/system/vold" />
+<remove-project name="platform/system/sepolicy" />
+<remove-project name="platform/packages/providers/MediaProvider" />
+<remove-project name="platform/packages/apps/Dialer" />
+<remove-project name="platform/packages/apps/ExactCalculator" />
+<remove-project name="platform/packages/apps/Calendar" />
+<remove-project name="platform/packages/apps/Settings" /> 
+<remove-project name="platform/packages/apps/DeskClock" />
+<remove-project name="platform/packages/apps/Messaging" />
+<remove-project name="platform/packages/services/Telephony" /> 
+<remove-project name="platform/packages/services/Telecomm" /> 
+<remove-project name="platform/prebuilts/clang/host/linux-x86" />
+<remove-project name="platform/external/selinux" />
+
+<!-- Build first -->
+
+ <project path="build/make" name="android_build_make" remote="stag" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />      
+ </project>
+         
+<project path="build/soong" name="android_build_soong" remote="stag" >
+                 <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
+  
+
+
+<!-- Now to track with elegance -->
+<project path="bionic" name="android_bionic" remote="stag" />
+<project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
+<project path="external/perfetto" name="android_external_perfetto" remote="stag" />
+<project path="external/DUI" name="android_external_DUI" remote="stag" />
+<project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
+<project path="external/selinux" name="android_external_selinux" remote="stag" />
+<project path="frameworks/av" name="android_frameworks_av" remote="stag" />
+<project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+<project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="stag" />
+<project path="frameworks/native" name="android_frameworks_native" remote="stag" />
+<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stag" />
+<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag" />
+<project path="frameworks/stag" name="android_frameworks_stag" remote="stag" />
+<project path="frameworks/support" name="android_frameworks_support" remote="stag" />
+<project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
+<project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="stag" />
+<project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
+<project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="stag" revision="p9-caf-8916" />
+<project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="stag" revision="p9-caf-8996" />
+<project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="stag" revision="p9-caf-8916" />
+<project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="stag" revision="p9-caf-8996" />
+<project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="stag" revision="p9-caf-8916" />
+<project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="stag" revision="p9-caf-8996" />
+<project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="stag" />
+<project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="stag" revision="p9-caf" />
+<project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="stag" />
+<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="stag" />
+<project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="stag" revision="p9-caf" />
+<project path="hardware/ril" name="android_hardware_ril" remote="stag" />
+<project path="hardware/ril-caf" name="android_hardware_ril" remote="stag" revision="p9-caf" />
+<project path="hardware/stag/telephony" name="android_hardware_stag_telephony" remote="stag" />
+<project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stag" />
+<project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
+<project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="stag" />
+<project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="stag" />
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />
+<project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="stag" />
+<project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="stag" />
+<project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="stag" />
+<project path="packages/overlays/gradients" name="android_packages_overlays_gradients" remote="stag" />
+<project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="stag" />
+<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
+<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="stag" />
+<project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="stag" />
+<project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="stag" />
+<project path="system/bt" name="android_system_bt" remote="stag" />
+<project path="system/core" name="android_system_core" remote="stag" />
+<project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
+<project path="system/vold" name="android_system_vold" remote="stag" />
+<project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag" />
+<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="stag" />
+<project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+ 
+</manifest>

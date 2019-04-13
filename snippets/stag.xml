@@ -158,7 +158,6 @@
 <project path="system/core" name="android_system_core" remote="stag" />
 <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
 <project path="system/vold" name="android_system_vold" remote="stag" />
-<project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag" />
 <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="stag" />
 <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
  

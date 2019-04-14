@@ -78,12 +78,14 @@
 <remove-project name="platform/system/vold" />
 <remove-project name="platform/system/sepolicy" />
 <remove-project name="platform/packages/providers/MediaProvider" />
+<remove-project name="platform/packages/apps/Browser2" />
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/ExactCalculator" />
 <remove-project name="platform/packages/apps/Calendar" />
 <remove-project name="platform/packages/apps/Settings" /> 
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/packages/apps/Messaging" />
+<remove-project name="platform/packages/apps/Music" />
 <remove-project name="platform/packages/services/Telephony" /> 
 <remove-project name="platform/packages/services/Telecomm" /> 
 <remove-project name="platform/prebuilts/clang/host/linux-x86" />
@@ -113,7 +115,6 @@
 <project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
 <project path="external/perfetto" name="android_external_perfetto" remote="stag" />
 <project path="external/DUI" name="android_external_DUI" remote="stag" />
-<project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
 <project path="external/selinux" name="android_external_selinux" remote="stag" />
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
 <project path="frameworks/base" name="android_frameworks_base" remote="stag" />

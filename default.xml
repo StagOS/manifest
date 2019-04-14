@@ -710,8 +710,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!--Lineage Repos-->
-  <include name="snippets/lineage.xml" />
   <!--StagOS Repos-->
   <include name="snippets/stag.xml" />
+  <!--Lineage Repos-->
+  <include name="snippets/lineage.xml" />
+
 </manifest>

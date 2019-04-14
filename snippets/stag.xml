@@ -67,6 +67,7 @@
 <remove-project name="platform/hardware/qcom/wlan" />
 <remove-project name="platform/hardware/qcom/bt" /> 
 <remove-project name="platform/hardware/qcom/gps" />  
+<remove-project name="platform/hardware/qcom/power" />
 <remove-project name="platform/hardware/libhardware_legacy" />
 <remove-project name="platform/hardware/libhardware" />
 <remove-project name="platform/hardware/interfaces" />
@@ -136,6 +137,7 @@
 <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="stag" />
 <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="stag" revision="p9-caf" />
 <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="stag" />
+<project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="stag" />
 <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="stag" />
 <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="stag" revision="p9-caf" />
 <project path="hardware/ril" name="android_hardware_ril" remote="stag" />

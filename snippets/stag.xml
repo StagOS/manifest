@@ -87,6 +87,7 @@
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/packages/apps/Messaging" />
 <remove-project name="platform/packages/apps/Music" />
+<remove-project name="platform/packages/apps/QuickSearchBox" />
 <remove-project name="platform/packages/services/Telephony" /> 
 <remove-project name="platform/packages/services/Telecomm" /> 
 <remove-project name="platform/prebuilts/clang/host/linux-x86" />

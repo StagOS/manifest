@@ -85,6 +85,7 @@
 <remove-project name="platform/packages/apps/Calendar" />
 <remove-project name="platform/packages/apps/Settings" /> 
 <remove-project name="platform/packages/apps/DeskClock" />
+<remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="platform/packages/apps/Messaging" />
 <remove-project name="platform/packages/apps/Music" />
 <remove-project name="platform/packages/apps/QuickSearchBox" />
@@ -146,6 +147,7 @@
 <project path="hardware/stag/telephony" name="android_hardware_stag_telephony" remote="stag" />
 <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stag" />
 <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
+<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
 <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="stag" />
 <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="stag" />
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />

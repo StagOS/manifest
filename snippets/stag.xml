@@ -131,11 +131,8 @@
 <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="stag" />
 <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
 <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="stag" revision="p9-caf-8916" />
-<project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="stag" revision="p9-caf-8996" />
 <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="stag" revision="p9-caf-8916" />
-<project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="stag" revision="p9-caf-8996" />
 <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="stag" revision="p9-caf-8916" />
-<project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="stag" revision="p9-caf-8996" />
 <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="stag" />
 <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="stag" revision="p9-caf" />
 <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="stag" />

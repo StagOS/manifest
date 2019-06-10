@@ -26,7 +26,7 @@
 <project path="external/connectivity" name="android_external_connectivity" remote="los" />
 <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
 <project path="external/json-c" name="android_external_json-c" remote="los" />
-
+<project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" /> 
 
  
 <!--HAL's-->

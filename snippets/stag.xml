@@ -116,6 +116,7 @@
 <!-- Now to track with elegance -->
 <project path="bionic" name="android_bionic" remote="stag" />
 <project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
+<project path="device/stag/sepolicy" name="android_device_stag_sepolicy" remote="stag" />
 <project path="external/perfetto" name="android_external_perfetto" remote="stag" />
 <project path="external/DUI" name="android_external_DUI" remote="stag" />
 <project path="external/selinux" name="android_external_selinux" remote="stag" />
@@ -141,6 +142,7 @@
 <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="stag" revision="p9-caf" />
 <project path="hardware/ril" name="android_hardware_ril" remote="stag" />
 <project path="hardware/ril-caf" name="android_hardware_ril" remote="stag" revision="p9-caf" />
+<project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
 <project path="hardware/stag/telephony" name="android_hardware_stag_telephony" remote="stag" />
 <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stag" />
 <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" />

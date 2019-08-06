@@ -213,6 +213,7 @@
 <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
 <project path="system/vold" name="android_system_vold" remote="stag" />
 <project path="vendor/interfaces" name="android_vendor_interfaces" remote="omni" />
+<project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="stag" />
 <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="stag" />
 <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag" />
 <project path="vendor/stag" name="android_vendor_stag" remote="stag" /> 

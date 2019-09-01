@@ -6,11 +6,6 @@
            revision="p9"
            fetch="https://github.com/StagOS/"  />
  
- <!-- Omni remote -->
-  <remote  name="omni"
-           revision="android-9.0"
-           fetch="https://github.com/omnirom/"  />
- 
  <!-- Remove the following projects as we are getting them from lineage/stag -->
 
 <!-- Framework -->
@@ -214,7 +209,6 @@
 <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
 <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
 <project path="system/vold" name="android_system_vold" remote="stag" />
-<project path="vendor/interfaces" name="android_vendor_interfaces" remote="omni" />
 <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="stag" />
 <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag" />
 <project path="vendor/stag" name="android_vendor_stag" remote="stag" /> 

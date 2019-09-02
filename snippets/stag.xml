@@ -190,6 +190,7 @@
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="stag" />
 <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
+<project path="packages/apps/Longshot" name="android_packages_apps_Longshot" remote="stag" />
 <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" />
 <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="stag" />
 <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="stag" />

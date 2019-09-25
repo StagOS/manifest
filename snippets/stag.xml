@@ -161,7 +161,7 @@
 <project path="external/DUI" name="android_external_DUI" remote="stag" />
 <project path="external/selinux" name="android_external_selinux" remote="stag" />
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
-<project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+<project path="frameworks/base" name="android_frameworks_base_p" remote="stag" />
 <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="stag" />
 <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
 <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stag" />

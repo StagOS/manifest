@@ -783,4 +783,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/stag.xml" />
+
 </manifest>

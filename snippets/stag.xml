@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+ <!-- Stag remote -->
+  <remote  name="stag"
+           revision="sx"
+           fetch="https://github.com/StagOS/"  />
+ 
+ <!-- Remove the following projects as we are getting them from lineage -->
+
+<!-- Framework -->
+<remove-project name="platform/frameworks/av" />
+<remove-project name="platform/frameworks/base" />
+<remove-project name="platform/frameworks/native" />
+<remove-project name="platform/frameworks/opt/net/ims" />
+<remove-project name="platform/frameworks/opt/telephony" />
+<!-- General -->
+<remove-project name="platform/bionic" />
+<remove-project name="platform/bootable/recovery" />
+<remove-project name="platform/build" />
+<remove-project name="platform/build/soong" />
+<remove-project name="platform/build/blueprint" />
+<remove-project name="platform/hardware/ril" />
+<remove-project name="platform/hardware/libhardware_legacy" />
+<remove-project name="platform/hardware/libhardware" />
+<remove-project name="platform/hardware/interfaces" />
+<remove-project name="platform/hardware/nxp/nfc" />
+<remove-project name="platform/hardware/qcom/keymaster" />
+<remove-project name="platform/hardware/qcom/gps" />
+<remove-project name="platform/hardware/qcom/wlan" />
+<remove-project name="platform/hardware/qcom/power" />
+<remove-project name="platform/system/bt" />
+<remove-project name="platform/system/core" />
+<remove-project name="platform/system/vold" />
+<remove-project name="platform/system/update_engine" />
+<remove-project name="platform/packages/providers/MediaProvider" />
+<remove-project name="platform/packages/apps/Settings" />
+<remove-project name="platform/packages/apps/Nfc" /> 
+<remove-project name="platform/packages/apps/QuickSearchBox" />
+<remove-project name="platform/packages/apps/Dialer" />
+<remove-project name="platform/packages/apps/DeskClock" />
+<remove-project name="platform/packages/apps/Launcher3" />
+<remove-project name="platform/packages/apps/Messaging" />
+<remove-project name="platform/packages/apps/ThemePicker" />
+<remove-project name="platform/packages/services/Telephony" /> 
+<remove-project name="platform/packages/services/Telecomm" /> 
+<remove-project name="platform/external/selinux" />
+<remove-project name="platform/external/tinycompress" />
+<remove-project name="platform/system/sepolicy" />
+
+<!-- Build first -->
+ <project path="build/make" name="android_build_make" remote="stag" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />      
+ </project>
+
+ <project path="build/soong" name="android_build_soong" remote="stag" >
+                 <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
+  
+ <project path="build/blueprint" name="android_build_blueprint" remote="stag" />
+
+<!-- Now to track with elegance -->
+<project path="frameworks/av" name="android_frameworks_av" remote="stag" />
+<project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+<project path="frameworks/native" name="android_frameworks_native" remote="stag" />
+<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="stag" />
+<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag" />
+<project path="bionic" name="android_bionic" remote="stag" />
+<project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
+<project path="device/stag/sepolicy" name="android_device_stag_sepolicy" remote="stag" />
+<project path="hardware/ril" name="android_hardware_ril" remote="stag" />
+<project path="hardware/ril-caf" name="android_hardware_ril" remote="stag" revision="sx-caf" />
+<project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="stag" revision="sx-caf" />
+<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="stag" />
+<project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="stag" />
+<project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="stag" />
+<project path="hardware/qcom-caf/power" name="android_hardware_qcom_power" remote="stag" />
+<project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="stag" />
+<project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
+<project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
+<project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="stag" />
+<project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
+<project path="external/selinux" name="android_external_selinux" remote="stag" />
+<project path="external/json-c" name="android_external_json-c" remote="stag" />
+<project path="external/tinycompress" name="android_external_tinycompress" remote="stag" /> 
+<project path="external/connectivity" name="android_external_connectivity" remote="stag" />
+<project path="system/core" name="android_system_core" remote="stag" />
+<project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stag" />
+<project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="stag" />
+<project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
+<project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="stag" />
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />
+<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" />
+<project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="stag" />                
+<project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" />
+<project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="stag" />
+<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
+<project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="stag" />
+<project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="stag" />
+<project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="stag" />
+<project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="stag" />
+<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="stag" />
+<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
+<project path="prebuilts/tools-stag" name="android_prebuilts_tools-stag" remote="stag" />
+<project path="system/vold" name="android_system_vold" remote="stag" />
+<project path="system/update_engine" name="android_system_update_engine" remote="stag" />
+<project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
+<project path="system/bt" name="android_system_bt" remote="stag" />
+</manifest>

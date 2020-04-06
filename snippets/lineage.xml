@@ -29,6 +29,9 @@
 <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" /> 
 <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="los" />
 <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="los" />
+
+<!-- Nov -->
+<project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
  
 <!--HAL's-->
 <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio"  remote="los" revision="lineage-16.0-caf-8084" />

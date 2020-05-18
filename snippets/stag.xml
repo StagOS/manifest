@@ -37,8 +37,12 @@
 <remove-project name="platform/hardware/nxp/nfc" />
 <remove-project name="platform/hardware/qcom/keymaster" />
 <remove-project name="platform/hardware/qcom/gps" />
-<remove-project name="platform/hardware/qcom/wlan" />
 <remove-project name="platform/hardware/qcom/power" />
+<remove-project name="platform/hardware/qcom/bootctrl" />
+<remove-project name="platform/hardware/qcom/display" />
+<remove-project name="platform/hardware/qcom/media" />
+<remove-project name="platform/hardware/qcom/audio" />
+<remove-project name="platform/hardware/qcom/sdm845/display" />
 <remove-project name="platform/system/bt" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/system/vold" />
@@ -90,7 +94,6 @@
 <project path="hardware/ril" name="android_hardware_ril" remote="stag" />
 <project path="hardware/ril-caf" name="android_hardware_ril" remote="stag" revision="sx-caf" />
 <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="stag" revision="sx-caf" />
-<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="stag" />
 <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="stag" />
 <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="stag" />
 <project path="hardware/qcom-caf/power" name="android_hardware_qcom_power" remote="stag" />

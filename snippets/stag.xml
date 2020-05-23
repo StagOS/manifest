@@ -139,5 +139,5 @@
 <project path="system/bt" name="android_system_bt" remote="stag" />
 
 <!-- Gapps -->
-<project path="vendor/pixelgapps" name="vjspranav/pixelgapps" remote="gitlab" revision="10.0" clone-depth="1" />
+<project path="vendor/pixelgapps" name="abhizala/platform_vendor_pixelgapps" remote="gitlab" revision="ten" clone-depth="1" />
 </manifest>

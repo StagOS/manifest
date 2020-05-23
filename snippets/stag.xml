@@ -104,6 +104,7 @@
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="platform/packages/apps/Messaging" />
+<remove-project name="platform/packages/apps/PackageInstaller" />
 <remove-project name="platform/packages/apps/ThemePicker" />
 <remove-project name="platform/packages/services/Telephony" /> 
 <remove-project name="platform/packages/services/Telecomm" /> 
@@ -173,6 +174,7 @@
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="stag" />
 <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="stag" />
+<project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="stag" />
 <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="stag" />
 <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="stag" />
 <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="stag" />

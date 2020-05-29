@@ -155,6 +155,7 @@
 <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="stag" />
 <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
 <project path="external/selinux" name="android_external_selinux" remote="stag" />
+<project path="external/google" name="android_external_google" remote="stag" />
 <project path="external/json-c" name="android_external_json-c" remote="stag" />
 <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" /> 
 <project path="external/connectivity" name="android_external_connectivity" remote="stag" />

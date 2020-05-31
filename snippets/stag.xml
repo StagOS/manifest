@@ -112,6 +112,7 @@
 <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 <remove-project name="platform/external/selinux" />
 <remove-project name="platform/external/tinycompress" />
+<remove-project name="platform/system/bpf" />
 <remove-project name="platform/system/sepolicy" />
 
 <!-- Build first -->
@@ -193,6 +194,7 @@
 <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
 <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
 <project path="system/bt" name="android_system_bt" remote="stag" />
+<project path="system/bpf" name="android_system_bpf" remote="stag" />
 
 <!-- Gapps -->
 <project path="vendor/pixelgapps" name="abhizala/platform_vendor_pixelgapps" remote="gitlab" revision="ten" clone-depth="1" />

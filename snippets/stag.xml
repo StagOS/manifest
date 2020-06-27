@@ -157,6 +157,7 @@
 <project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
 <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="stag" />
 <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
+<project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="stag" />
 <project path="external/selinux" name="android_external_selinux" remote="stag" />
 <project path="external/google" name="android_external_google" remote="stag" />
 <project path="external/json-c" name="android_external_json-c" remote="stag" />
@@ -199,3 +200,4 @@
 <!-- Gapps -->
 <project path="vendor/pixelgapps" name="abhizala/platform_vendor_pixelgapps" remote="gitlab" revision="ten" clone-depth="1" />
 </manifest>
+

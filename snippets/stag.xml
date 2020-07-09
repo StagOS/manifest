@@ -111,6 +111,7 @@
 <remove-project name="platform/packages/services/Telecomm" /> 
 <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 <remove-project name="platform/external/selinux" />
+<remove-project name="platform/external/skia" />
 <remove-project name="platform/external/tinycompress" />
 <remove-project name="platform/system/bpf" />
 <remove-project name="platform/system/sepolicy" />
@@ -159,6 +160,7 @@
 <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
 <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="stag" />
 <project path="external/selinux" name="android_external_selinux" remote="stag" />
+<project path="external/skia" name="android_external_skia" remote="stag" />
 <project path="external/google" name="android_external_google" remote="stag" />
 <project path="external/json-c" name="android_external_json-c" remote="stag" />
 <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" /> 

@@ -9,6 +9,8 @@
 <!-- Tracking the following -->
 <project path="external/libncurses" name="android_external_libncurses" remote="los" />
 <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
+<project path="external/exfat" name="android_external_exfat" remote="los"/>
+<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
 <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />

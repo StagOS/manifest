@@ -77,6 +77,7 @@
 <remove-project name="platform/build" />
 <remove-project name="platform/build/soong" />
 <remove-project name="platform/build/blueprint" />
+<remove-project name="platform/development" />
 <remove-project name="platform/hardware/ril" />
 <remove-project name="platform/hardware/libhardware_legacy" />
 <remove-project name="platform/hardware/libhardware" />
@@ -143,6 +144,7 @@
 <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stag" />
 <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag" />
 <project path="bionic" name="android_bionic" remote="stag" />
+<project path="development" name="android_development" remote="stag" />
 <project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
 <project path="device/stag/sepolicy" name="android_device_stag_sepolicy" remote="stag" />
 <project path="hardware/ril" name="android_hardware_ril" remote="stag" />

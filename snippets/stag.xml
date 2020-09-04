@@ -10,6 +10,10 @@
   <remote  name="stag"
            revision="sx"
            fetch="https://github.com/StagOS/"  />
+
+  <remote  name="gitlab-stag"
+           revision="sx"
+           fetch="https://gitlab.com/StagOS/"  />
  
   <remote  name="stagos-devices"
            fetch="https://github.com/StagOS-Devices"

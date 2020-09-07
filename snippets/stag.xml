@@ -206,7 +206,10 @@
 <project path="system/bt" name="android_system_bt" remote="stag" />
 <project path="system/bpf" name="android_system_bpf" remote="stag" />
 
+<!-- Gitlab -->
+<project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="gitlab-stag" />
+
 <!-- Gapps -->
-<project path="vendor/pixelgapps" name="abhizala/platform_vendor_pixelgapps" remote="gitlab" revision="ten" clone-depth="1" />
+<project path="vendor/pixelgapps" name="platform_vendor_pixelgapps" remote="gitlab-stag" revision="ten" clone-depth="1" />
 </manifest>
 

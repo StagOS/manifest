@@ -106,6 +106,7 @@
 <remove-project name="platform/packages/apps/SettingsIntelligence" />
 <remove-project name="platform/packages/apps/Nfc" /> 
 <remove-project name="platform/packages/apps/QuickSearchBox" />
+<remove-project name="platform/packages/apps/Contacts" />
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/packages/apps/Launcher3" />
@@ -119,6 +120,7 @@
 <remove-project name="platform/external/selinux" />
 <remove-project name="platform/external/skia" />
 <remove-project name="platform/external/tinycompress" />
+<remove-project name="platform/external/sonivox" />
 <remove-project name="platform/system/bpf" />
 <remove-project name="platform/system/sepolicy" />
 
@@ -173,6 +175,7 @@
 <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" /> 
 <project path="external/connectivity" name="android_external_connectivity" remote="stag" />
 <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="stag" /> 
+<project path="external/sonivox" name="android_external_sonivox" remote="stag" />
 <project path="system/core" name="android_system_core" remote="stag" />
 <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stag" />
 <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
@@ -182,6 +185,7 @@
 <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="stag" />
 <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" />
 <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="stag" />
+<project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="stag" />
 <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="stag" />                
 <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" />
 <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="stag" />

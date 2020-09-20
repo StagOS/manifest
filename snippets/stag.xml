@@ -144,7 +144,7 @@
 
 <!-- Now to track with elegance -->
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
-<project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+<project path="frameworks/base" name="android_frameworks_base_q" remote="stag" />
 <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
 <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="stag" />
 <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stag" />

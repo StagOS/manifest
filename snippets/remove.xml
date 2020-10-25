@@ -61,6 +61,7 @@
 <remove-project name="platform/bionic" />
 <remove-project name="platform/bootable/recovery" />
 <remove-project name="platform/build" />
+<remove-project name="platform/build/blueprint" />
 <remove-project name="platform/build/soong" />
 <remove-project name="platform/hardware/libhardware_legacy" />
 <remove-project name="platform/hardware/libhardware" />
@@ -82,6 +83,7 @@
 <remove-project name="platform/external/selinux" />
 <remove-project name="platform/external/tinycompress" />
 <remove-project name="platform/system/sepolicy" />
+<remove-project name="platform/tools/metalava" />
 <remove-project name="platform/platform_testing" />
 <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />

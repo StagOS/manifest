@@ -90,4 +90,7 @@
   <!-- Packages -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" revision="lineage-17.1" />
 
+ <!-- Tools -->
+ <project path="tools/metalava" name="android_tools_metalava" remote="lineage" />
+
 </manifest>

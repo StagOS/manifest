@@ -36,6 +36,8 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
+
+ <project path="build/blueprint" name="android_build_blueprint" remote="stag" />
   
 <!-- Now to track with elegance -->
   <project path="frameworks/av" name="android_frameworks_av" remote="stag" />

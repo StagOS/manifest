@@ -95,6 +95,10 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
   </project>
+ 
+  <!-- GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="stag" revision="master" clone-depth="1" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="stag" revision="master" clone-depth="1" />
 
   <!-- Gitlab -->
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="gitlab-stag" />

@@ -56,6 +56,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
   <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
+  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="stag" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="stag" />
   <project path="external/selinux" name="android_external_selinux" remote="stag" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" /> 

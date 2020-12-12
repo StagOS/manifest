@@ -106,4 +106,6 @@
   <!-- Gitlab -->
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="gitlab-stag" />
 
+  <!-- Gapps -->
+  <project path="vendor/gapps" name="platform_vendor_pixelgapps" remote="gitlab-stag" clone-depth="1" />
 </manifest>

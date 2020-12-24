@@ -75,6 +75,8 @@
 <remove-project name="platform/packages/apps/ThemePicker" />
 <remove-project name="platform/packages/apps/Gallery" />
 <remove-project name="platform/packages/apps/Gallery2" />
+<remove-project name="platform/packages/apps/Bluetooth" />
+<remove-project name="platform/packages/services/Telecomm" />
 <remove-project name="platform/system/bt" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/system/vold" />

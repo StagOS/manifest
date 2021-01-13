@@ -71,8 +71,11 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
   <project path="platform/testing" name="android_platform_testing" remote="stag" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="stag" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="stag" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="stag" clone-depth="1" />
+
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="stag" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" revision="r11-legacy" remote="stag" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="r11-legacy-um" remote="stag" />
 
   <!-- QCOM CAF -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="stag" >
@@ -106,6 +109,8 @@
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="stag" revision="master" clone-depth="1" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="stag" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="stag" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="stag" clone-depth="1" />
 
   <!-- Gitlab -->
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="gitlab-stag" />

@@ -76,6 +76,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="stag" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" revision="r11-legacy" remote="stag" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="r11-legacy-um" remote="stag" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stag" />
 
   <!-- QCOM CAF -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="stag" >

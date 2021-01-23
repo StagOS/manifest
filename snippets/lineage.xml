@@ -73,6 +73,9 @@
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="lineage" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" />
 

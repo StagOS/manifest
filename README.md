@@ -11,15 +11,15 @@ familiar with [Establishing a build environment](http://source.android.com/sourc
 
 To initialize your local repository using the StagOS sources, use a command like this:
 ```
-repo init -u https://github.com/StagOS/manifest.git -b r11
+ repo init --depth=1 -u https://github.com/StagOS/manifest.git -b r11
 ```
 Then to sync up:
 ```
-repo sync -jx
+repo sync -j$(nproc --all)
 ```
 or
 ```
-repo sync --force-sync -f -c --no-clone-bundle --no-tags -jx
+repo sync --force-sync -f -c --no-clone-bundle --no-tags -j$(nproc --all)
 ```
 use this for faster sync. (x=no of cores to be used)
 

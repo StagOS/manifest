@@ -1,4 +1,4 @@
-[<center><img src="https://i.imgur.com/LWqb1rK.jpg" height="100%" width="100%;"/></center>](https://github.com/StagOS)
+[<center><img src="https://i.pinimg.com/736x/8d/3d/04/8d3d049e47b6816f64ba2043782ae285.jpg" height="100%" width="100%;"/></center>](https://github.com/StagOS)
 
 ---------------
 Getting started

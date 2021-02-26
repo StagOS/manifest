@@ -107,6 +107,8 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="stag" />
  
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="stag" revision="master" clone-depth="1" /> 

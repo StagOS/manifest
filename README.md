@@ -19,7 +19,7 @@ repo sync -jx
 ```
 or
 ```
-repo sync --force-sync -f -c --no-clone-bundle --no-tags -jx
+repo sync --force-sync -c --no-clone-bundle --no-tags -jx
 ```
 use this for faster sync. (x=no of cores to be used)
 

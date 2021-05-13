@@ -68,6 +68,7 @@
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="stag" /> 
   <project path="system/core" name="android_system_core" remote="stag" />
   <project path="system/vold" name="android_system_vold" remote="stag" />
+  <project path="system/netd" name="android_system_netd" remote="stag" />
   <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
   <project path="prebuilts/tools-stag" name="android_prebuilts_tools-stag" remote="stag" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />

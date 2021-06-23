@@ -71,8 +71,8 @@
 <remove-project name="platform/hardware/qcom/gps" />
 <remove-project name="platform/hardware/qcom/wlan" />
 <remove-project name="platform/hardware/qcom/sdm845/display" />
-<!--
 <remove-project name="platform/packages/apps/Settings" />
+<!--
 <remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/ThemePicker" />
@@ -98,9 +98,7 @@
 <!--
 <remove-project name="platform/platform_testing" />
 -->
-<!--
 <remove-project name="platform/prebuilts/abi-dumps/vndk" />
--->
 <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 

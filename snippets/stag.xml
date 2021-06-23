@@ -54,6 +54,8 @@
   <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="stag" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag" revision="r11-caf" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />
+  <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="stag" />
   <project path="packages/apps/PotatoPlugins" name="android_packages_apps_PotatoPlugins" remote="stag" />
   <project path="packages/overlays/gradients" name="android_packages_overlays_gradients" remote="stag" />
@@ -69,6 +71,7 @@
   <project path="system/bt" name="android_system_bt" remote="stag" />
   <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="stag" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="stag" clone-depth="1" />
 
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="stag" revision="master" clone-depth="1" /> 

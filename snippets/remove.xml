@@ -74,9 +74,7 @@
 <remove-project name="platform/packages/apps/Settings" />
 <remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="platform/packages/apps/Dialer" />
-<!--
 <remove-project name="platform/packages/apps/ThemePicker" />
--->
 <remove-project name="platform/packages/apps/Gallery" />
 <remove-project name="platform/packages/apps/Gallery2" />
 <remove-project name="platform/packages/apps/Bluetooth" />

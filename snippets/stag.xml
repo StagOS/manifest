@@ -11,6 +11,10 @@
            revision="r11"
            fetch="https://github.com/StagOS/"  />
 
+  <remote  name="gitea-stag"
+           revision="r11"
+           fetch="https://git.stag-os.org/StagOS/"  />
+
   <remote  name="gitlab-stag"
            revision="r11"
            fetch="https://gitlab.com/StagOS/"  />
@@ -40,9 +44,9 @@
  <project path="build/blueprint" name="android_build_blueprint" remote="stag" />
 
   <!-- Now to track with elegance -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="stag" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="gitea-stag" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="gitea-stag" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="gitea-stag" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="stag" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag" />
   <project path="bionic" name="android_bionic" remote="stag" />

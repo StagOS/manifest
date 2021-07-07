@@ -74,7 +74,7 @@
   <project path="system/core" name="android_system_core" remote="gitea-stag" />
   <project path="system/vold" name="android_system_vold" remote="stag" />
   <project path="system/netd" name="android_system_netd" remote="stag" />
-  <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+  <project path="vendor/stag" name="android_vendor_stag" remote="gitea-stag" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
   <project path="system/bt" name="android_system_bt" remote="stag" />
   <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
@@ -91,6 +91,6 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
 
   <!-- Gapps -->
-  <project path="vendor/gapps" name="android_vendor_pixelgapps" remote="gitea-stag" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="gitea-stag" clone-depth="1" />
 </manifest>
 

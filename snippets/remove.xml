@@ -87,7 +87,7 @@
 <remove-project name="platform/system/vold" />
 <remove-project name="platform/system/netd" />
 <remove-project name="platform/system/update_engine" />
-<!-- <remove-project name="platform/external/selinux" /> -->
+<remove-project name="platform/external/selinux" />
 <remove-project name="platform/external/tinycompress" />
 <remove-project name="platform/external/e2fsprogs" />
 <remove-project name="platform/external/gptfdisk" />
@@ -95,8 +95,8 @@
 <remove-project name="platform/tools/metalava" />
 <!--
 <remove-project name="platform/platform_testing" />
-<remove-project name="platform/prebuilts/abi-dumps/vndk" />
 -->
+<remove-project name="platform/prebuilts/abi-dumps/vndk" />
 <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 

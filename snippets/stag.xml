@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="stag"
+           revision="r11"
+           fetch="https://github.com/StagOS/"  />
+
+  <remote  name="gitea-stag"
+           revision="r11"
+           fetch="https://git.stag-os.org/StagOS/"  />
+
+  <remote  name="gitlab-stag"
+           revision="r11"
+           fetch="https://gitlab.com/StagOS/"  />
+ 
+  <remote  name="stagos-devices"
+           fetch="https://github.com/StagOS-Devices"
+           revision="refs/heads/r11" />
+
+<!-- Remove the following projects as we are getting them from lineage/stag -->
+<include name="snippets/remove.xml" />
+</manifest>

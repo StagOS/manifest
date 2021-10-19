@@ -34,7 +34,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lineage" />
+  <!-- <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lineage" /> -->
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
 
   <!-- External -->
@@ -45,7 +45,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
-  <project path="external/nano" name="android_external_nano" remote="lineage" />
+  <!--<project path="external/nano" name="android_external_nano" remote="lineage" /> -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
   <project path="external/pigz" name="android_external_pigz" remote="lineage" />
@@ -69,22 +69,25 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lineage" revision="lineage-18.1-caf"/>
-  <!--<project path="hardware/ril" name="android_hardware_ril" remote="lineage" /> -->
+  <!-- <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lineage" revision="lineage-18.1-caf"/>
+  <project path="hardware/ril" name="android_hardware_ril" remote="lineage" /> -->
 
   <!-- Prebuilt Stuff
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" /> -->
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
+  <project path="prebuilts/tools-stag" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
   <!--<project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" /> -->
 
-   <!-- Audio HALS
+  <!-- Device Settings -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+
+  <!-- Audio HALS
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" /> -->
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8150" remote="lineage" />

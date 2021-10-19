@@ -11,6 +11,10 @@
            revision="r11"
            fetch="https://github.com/StagOS/"  />
 
+  <remote  name="stag-beta"
+           revision="s12"
+           fetch="https://github.com/StagOS-Beta/"  />
+
   <remote  name="gitea-stag"
            revision="r11"
            fetch="https://git.stag-os.org/StagOS/"  />
@@ -25,4 +29,36 @@
 
 <!-- Remove the following projects as we are getting them from lineage/stag -->
 <include name="snippets/remove.xml" />
+
+<!-- Build first -->
+ <project path="build/make" name="android_build" remote="stag-beta" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />      
+ </project>
+
+ <project path="build/soong" name="android_build_soong" remote="stag-beta" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
+
+  <!-- Now to track with elegance -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="stag-beta" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="stag-beta" />
+  <project path="bionic" name="android_bionic" remote="stag-beta" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="stag-beta" />
+  <project path="device/stag/sepolicy" name="android_device_stag_sepolicy" remote="gitea-stag" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag-beta" />
+  <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag-beta" revision="s12-caf" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag-beta" />
+  <project path="system/core" name="android_system_core" remote="stag-beta" />
+  <project path="system/netd" name="android_system_netd" remote="stag-beta" />
+  <project path="vendor/stag" name="android_vendor_stag" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="stag-beta" />
 </manifest>

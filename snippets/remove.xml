@@ -89,4 +89,5 @@
 <remove-project name="platform/packages/apps/Settings" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/system/netd" />
+<remove-project name="platform/external/tinycompress" />
 </manifest>

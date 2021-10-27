@@ -56,6 +56,7 @@
   <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag-beta" revision="s12-caf" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag-beta" />
+  <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag-beta" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag-beta" />
   <project path="system/core" name="android_system_core" remote="stag-beta" />
   <project path="system/netd" name="android_system_netd" remote="stag-beta" />

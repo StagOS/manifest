@@ -55,8 +55,12 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag-beta" />
   <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag-beta" revision="s12-caf" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag-beta" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag-beta" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="stag-beta" />
   <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag-beta" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="stag-beta" />
+  <project path="external/themelib" name="android_external_themelib" remote="stag-beta" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag-beta" />
   <project path="system/core" name="android_system_core" remote="stag-beta" />
   <project path="system/netd" name="android_system_netd" remote="stag-beta" />

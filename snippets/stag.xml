@@ -68,6 +68,8 @@
   <project path="vendor/stag" name="android_vendor_stag" remote="stag-beta" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag-beta" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag-beta" />
 
   <!-- Hals -->
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="s12-caf-sm8350" remote="stag-beta" />

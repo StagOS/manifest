@@ -87,4 +87,7 @@
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="s12-caf-sm8350" remote="stag-beta" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="s12-caf-sm8350" remote="stag-beta" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="s12-caf-sm8350" remote="stag-beta" />
+
+  <!-- Gapps -->
+  <project path="vendor/gapps" name="android_vendor_gapps" revision="twelve" remote="gitlab-stag" />
 </manifest>

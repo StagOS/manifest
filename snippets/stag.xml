@@ -85,6 +85,12 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="s12-sn100x" remote="stag-beta" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="s12-sn100x" remote="stag-beta" />
 
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="stag-beta" />  
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="stag-beta" revision="s12-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um-sb" name="android_device_qcom_sepolicy" remote="stag-beta" revision="s12-legacy-um-sb" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stag-beta" />
+
   <!-- Hals -->
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="s12-caf-sm8350" remote="stag-beta" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="s12-caf-msm8996" remote="stag-beta" />

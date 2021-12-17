@@ -85,6 +85,7 @@
 
   <!-- Hals -->
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="s12-caf-sm8350" remote="stag-beta" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="s12-caf-msm8996" remote="stag-beta" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="s12-caf-sm8350" remote="stag-beta" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="s12-caf-sm8350" remote="stag-beta" />
 

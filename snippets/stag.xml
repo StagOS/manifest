@@ -52,7 +52,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="stag-beta" />
   <project path="bionic" name="android_bionic" remote="stag-beta" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="stag-beta" />
-  <project path="device/stag/sepolicy" name="android_device_stag_sepolicy" remote="gitea-stag" />
+  <project path="device/lineage/sepolicy" name="android_device_stag_sepolicy" remote="stag-beta" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag-beta" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag-beta" />
   <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />

@@ -99,5 +99,6 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="s12-caf-sm8350" remote="stag-beta" />
 
   <!-- Gapps -->
+  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="stag-beta" />
   <project path="vendor/gapps" name="vendor_gapps" revision="twelve" remote="gitlab-stag" />
 </manifest>

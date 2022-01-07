@@ -70,9 +70,10 @@
   <project path="external/themelib" name="android_external_themelib" remote="stag-beta" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag-beta" />
   <project path="system/core" name="android_system_core" remote="stag-beta" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="stag-beta" />
   <project path="system/netd" name="android_system_netd" remote="stag-beta" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="stag-beta" />
-  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="stag-beta" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="stag-beta" />
   <project path="vendor/stag" name="android_vendor_stag" remote="stag-beta" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag-beta" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="stag-beta" />

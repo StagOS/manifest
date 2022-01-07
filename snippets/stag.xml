@@ -91,7 +91,6 @@
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="stag-beta" />  
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="stag-beta" revision="s12-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um-sb" name="android_device_qcom_sepolicy" remote="stag-beta" revision="s12-legacy-um-sb" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stag-beta" />
 
   <!-- Hals -->

@@ -99,4 +99,5 @@
 <remove-project name="platform/system/sepolicy" />
 <remove-project name="platform/system/libhwbinder" /> 
 <remove-project name="platform/external/tinycompress" />
+<remove-project name="platform/external/mksh" />
 </manifest>

@@ -66,6 +66,7 @@
   <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag-beta" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag-beta" />
   <project path="external/colorkt" name="android_external_colorkt" remote="stag-beta" />
+  <project path="external/mksh" name="android_external_mksh" remote="stag-beta" />
   <project path="external/themelib" name="android_external_themelib" remote="stag-beta" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag-beta" />
   <project path="system/core" name="android_system_core" remote="stag-beta" />

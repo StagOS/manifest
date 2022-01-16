@@ -25,7 +25,7 @@
  
   <remote  name="stagos-devices"
            fetch="https://github.com/StagOS-Devices"
-           revision="refs/heads/r11" />
+           revision="refs/heads/s12" />
 
 <!-- Remove the following projects as we are getting them from lineage/stag -->
 <include name="snippets/remove.xml" />

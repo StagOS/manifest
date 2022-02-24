@@ -101,4 +101,5 @@
 <remove-project name="platform/system/update_engine" /> 
 <remove-project name="platform/external/tinycompress" />
 <remove-project name="platform/external/mksh" />
+<remove-project name="platform/external/gptfdisk" />
 </manifest>

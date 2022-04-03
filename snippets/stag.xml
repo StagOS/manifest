@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="stag"
+           revision="s12.1"
+           fetch="https://github.com/StagOS/"  />
+
+  <remote  name="stag-beta"
+           revision="s12"
+           fetch="https://github.com/StagOS-Beta/"  />
+
+  <remote  name="gitea-stag"
+           revision="r11"
+           fetch="https://git.stag-os.org/StagOS/"  />
+
+  <remote  name="gitlab-stag"
+           revision="s12.1"
+           fetch="https://gitlab.com/StagOS/"  />
+ 
+  <remote  name="stagos-devices"
+           fetch="https://github.com/StagOS-Devices"
+           revision="refs/heads/s12" />
+
+<!-- Remove the following projects as we are getting them from lineage/stag -->
+<include name="snippets/remove.xml" />
+
+<!-- Build first -->
+ <project path="build/make" name="android_build_make" remote="stag" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />      
+ </project>
+
+ <project path="build/soong" name="android_build_soong" remote="stag" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
+
+  <!-- Now to track with elegance -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
+  <project path="bionic" name="android_bionic" remote="stag" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
+  <project path="device/lineage/sepolicy" name="android_device_stag_sepolicy" remote="stag" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
+  <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag" revision="s12-caf" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="stag" />
+  <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="stag" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="stag" />
+  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="stag" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="stag" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="stag" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="stag" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
+  <project path="external/mksh" name="android_external_mksh" remote="stag" />
+  <project path="external/themelib" name="android_external_themelib" remote="stag" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
+  <project path="system/core" name="android_system_core" remote="stag" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="stag" />
+  <project path="system/netd" name="android_system_netd" remote="stag" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
+  <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="stag-beta" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="stag" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="s12-pn5xx" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="s12-pn5xx" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="s12-sn100x" remote="stag-beta" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="s12-sn100x" remote="stag-beta" />
+
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="stag" />  
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="stag" revision="s12.1-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stag" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="s12-caf-sm8350" remote="stag" />
+  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="s12-caf-sm8350" remote="stag" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="s12-caf-sm8350" remote="stag" />
+
+  <!-- Gapps -->
+  <project path="vendor/gms" name="vendor_gapps" remote="gitlab-stag" />
+</manifest>

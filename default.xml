@@ -1104,4 +1104,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!--Tracking Elegance -->
+  <include name="snippets/stag.xml" />
+  <include name="snippets/lineage.xml" />
 </manifest>

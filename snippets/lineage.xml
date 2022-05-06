@@ -55,7 +55,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="lineage" revision="lineage-18.1" />
   <!--<project path="external/vim" name="android_external_vim" remote="lineage" revision="lineage-18.1" />-->
   <project path="external/zip" name="android_external_zip" remote="lineage" revision="lineage-18.1"  />
-  <!--<project path="external/mksh" name="android_external_mksh" remote="lineage" />-->
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
 
   <!-- General Repos
   <project path="development" name="android_development" remote="lineage" /> -->

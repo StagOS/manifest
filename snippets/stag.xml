@@ -71,7 +71,6 @@
   <project path="external/colorkt" name="android_external_colorkt" remote="stag" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="stag" />
   <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
-  <project path="external/mksh" name="android_external_mksh" remote="stag" />
   <project path="external/themelib" name="android_external_themelib" remote="stag" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
   <project path="system/core" name="android_system_core" remote="stag" />

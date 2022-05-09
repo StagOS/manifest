@@ -52,7 +52,8 @@ make stag
 
 ## Contact US ##
 If you want to Maintain for your device
-Compile the rom without any bugs ping us with your trees and  any of previous roms that you released.
+Compile the rom without any bugs and fill the form:
+[Maintainer Form](https://maintainers.stag-os.org).  
 Or if you just want to say a hi do the same below
 
 [Telegram group](https://t.me/HornsOfficial)  [Telegram Channel](https://t.me/HornsUpdates)

@@ -35,7 +35,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" />
-  <!-- <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lineage" /> -->
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="lineage"  />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="lineage" />
@@ -64,10 +64,9 @@
   <!-- General Repos
   <project path="development" name="android_development" remote="lineage" /> -->
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
-  <!-- <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lineage" groups="qcom,pdk-qcom" revision="lineage-18.1" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="lineage" groups="qcom,pdk-qcom" revision="lineage-19.0-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="lineage" groups="qcom,pdk-qcom" revision="lineage-19.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="lineage" groups="qcom,pdk-qcom" /> -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lineage" groups="qcom,pdk-qcom" revision="lineage-19.1" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="lineage" groups="qcom,pdk-qcom" revision="lineage-19.1-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="lineage" groups="qcom,pdk-qcom" />
 
   <!-- Hardware repos
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />

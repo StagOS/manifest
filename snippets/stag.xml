@@ -79,15 +79,14 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
   <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag-beta" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="stag-beta" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="stag-beta" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag-beta" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="stag" />
 
-  <!-- Sepolicy -->
+  <!-- Sepolicy
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="stag" />  
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="stag" revision="s12.1-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stag" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="stag" /> -->
 
   <!-- Hals -->
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="s12-caf-sm8350" remote="stag" />

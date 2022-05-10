@@ -83,6 +83,7 @@
 <remove-project name="platform/build" />
 <remove-project name="platform/build/soong" />
 <remove-project name="platform/hardware/interfaces" />
+<remove-project name="platform/packages/apps/Bluetooth" />
 <remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="platform/packages/apps/Nfc" />
 <remove-project name="platform/packages/apps/Settings" />

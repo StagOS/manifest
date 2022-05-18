@@ -84,4 +84,7 @@
 
   <!-- Gapps -->
   <project path="vendor/gms" name="vendor_gapps" remote="gitlab-stag" />
+
+  <!-- Pixel Launcher -->
+  <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" remote="stag" revision="khonsu" />
 </manifest>

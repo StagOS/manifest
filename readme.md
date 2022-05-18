@@ -11,7 +11,7 @@ familiar with [Establishing a build environment](http://source.android.com/sourc
 
 To initialize your local repository using the StagOS sources, use a command like this:
 ```
-repo init -u https://git.stag-os.org/StagOS/manifest.git -b s12.1
+repo init -u https://github.com/StagOS/manifest.git -b s12.1
 ```
 Then to sync up:
 ```

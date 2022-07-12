@@ -91,4 +91,7 @@
 
   <!-- Pixel Launcher -->
   <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" remote="stag" revision="khonsu" />
+
+  <!-- repainter -->
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 </manifest>

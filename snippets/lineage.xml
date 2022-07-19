@@ -85,6 +85,7 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
   <!-- <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lineage" revision="lineage-18.1-caf"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" /> -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
 
   <!-- Prebuilt Stuff
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />

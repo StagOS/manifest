@@ -76,6 +76,7 @@
   <project path="external/themelib" name="android_external_themelib" remote="stag" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
   <project path="system/core" name="android_system_core" remote="stag" />
+  <project path="system/extras" name="android_system_extras" remote="stag" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="stag" />
   <project path="system/netd" name="android_system_netd" remote="stag" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />

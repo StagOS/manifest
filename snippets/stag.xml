@@ -45,7 +45,6 @@
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
 <project path="frameworks/base" name="android_frameworks_base" remote="stag" />
 <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
-<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag" />
 
 <!-- Core repos -->
 <project path="bionic" name="android_bionic" remote="stag" />
@@ -60,6 +59,7 @@
 <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
 
 <!-- Packages -->
+<project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" />
 <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
 <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" />
@@ -69,6 +69,7 @@
 <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="stag" />
 <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="stag" revision="s12.1" />
 <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="stag" />
+<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
 
 <!-- System repos -->
 <project path="system/core" name="android_system_core" remote="stag" />
@@ -78,9 +79,6 @@
 <!-- Stag Custom repos -->
 <project path="device/lineage/sepolicy" name="android_device_stag_sepolicy" remote="stag" />
 <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
-
-<!-- GCC -->
-<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="stag-beta" clone-depth="1" />
 
 <!-- Legacy AOSP -->
 <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />

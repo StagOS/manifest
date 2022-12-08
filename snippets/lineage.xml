@@ -61,7 +61,7 @@
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
 
   <!-- From Lineage -->
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
+  <!-- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" /> -->
 
   <!-- Packages -->
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />

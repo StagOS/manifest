@@ -45,6 +45,7 @@
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
 <project path="frameworks/base" name="android_frameworks_base" remote="stag" />
 <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
+<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag" />
 
 <!-- Core repos -->
 <project path="bionic" name="android_bionic" remote="stag" />

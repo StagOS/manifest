@@ -87,7 +87,7 @@
 <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
 <!-- Gapps -->
-<project path="vendor/gms" name="vendor_gapps_thirteen" remote="gitlab-stag" revision="t13" />
+<project path="vendor/gms" name="android_vendor_gms" remote="gitlab-stag" revision="t13" />
 
 <!-- repainter -->
 <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />

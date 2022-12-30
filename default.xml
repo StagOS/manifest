@@ -1187,4 +1187,5 @@
   <!--Tracking Elegance -->
   <include name="snippets/stag.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>

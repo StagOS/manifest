@@ -55,7 +55,7 @@
 <!-- External -->
 <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
 <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
-
+<project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="stag" />
 <!-- Hardware repos -->
 <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
 <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag" revision="t13-caf" />

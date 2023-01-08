@@ -81,8 +81,9 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
-  <!-- Device Settings -->
+  <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
 
   <!-- NXP additions -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" groups="nxp" remote="lineage" revision="lineage-19.1" />

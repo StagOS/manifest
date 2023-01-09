@@ -92,6 +92,9 @@
 <!-- Gapps -->
 <project path="vendor/gms" name="android_vendor_gms" remote="gitlab-stag" revision="t13" />
 
+<!-- Vendor Interfaces -->
+<project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag" />
+
 <!-- repainter -->
 <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 

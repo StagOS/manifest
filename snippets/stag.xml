@@ -77,6 +77,9 @@
 <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="stag" />
 <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
 
+<!-- Prebuilts -->
+<project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="gitlab-stag" revision="t13" />
+
 <!-- System repos -->
 <project path="system/core" name="android_system_core" remote="stag" />
 <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
@@ -91,6 +94,7 @@
 
 <!-- Gapps -->
 <project path="vendor/gms" name="android_vendor_gms" remote="gitlab-stag" revision="t13" />
+<project path="vendor/partner_modules" name="vendor_partner_modules" remote="gitlab-stag" revision="t13" />
 
 <!-- Vendor Interfaces -->
 <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="stag" />

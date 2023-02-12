@@ -72,6 +72,7 @@
 <remove-project name="platform/external/gptfdisk" /> 
 
 <!-- Prebuilts -->
+<remove-project name="platform/prebuilts/clang/host/linux-x86" />
 <remove-project name="platform/prebuilts/module_sdk/art" />
 <remove-project name="platform/prebuilts/module_sdk/AdServices" />
 <remove-project name="platform/prebuilts/module_sdk/AppSearch" />

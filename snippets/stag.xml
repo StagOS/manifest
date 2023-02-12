@@ -53,9 +53,13 @@
 <project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
 
 <!-- External -->
+<project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="stag" />
+<project path="external/rust/cxx" name="android_external_rust_cxx" remote="stag" />
+<project path="external/aac" name="android_external_aac" remote="stag" />
 <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
 <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
 <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="stag" />
+
 <!-- Hardware repos -->
 <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
 <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag" revision="t13-caf" />
@@ -79,11 +83,16 @@
 
 <!-- Prebuilts -->
 <project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="gitlab-stag" revision="t13" />
+<project path="prebuilts/rust" name="prebuilts_rust" remote="gitlab-stag" revision="thirteen" />
 
 <!-- System repos -->
+<project path="system/apex" name="android_system_apex" remote="stag" />
+<project path="system/linkerconfig" name="android_system_linkerconfig" remote="stag" />
+<project path="system/logging" name="android_system_logging" remote="stag" />
 <project path="system/core" name="android_system_core" remote="stag" />
 <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
 <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
+<project path="system/netd" name="android_system_netd" remote="stag" />
 
 <!-- Stag Custom repos -->
 <project path="device/lineage/sepolicy" name="android_device_stag_sepolicy" remote="stag" />

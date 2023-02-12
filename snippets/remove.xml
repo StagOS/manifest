@@ -97,6 +97,9 @@
 <remove-project name="platform/external/tinycompress" />
 <remove-project name="platform/external/chromium-webview" />
 <remove-project name="platform/external/android-nn-driver" />
+<remove-project name="platform/external/rust/crates/ring" />
+<remove-project name="platform/external/rust/cxx" />
+<remove-project name="platform/external/aac" />
 <remove-project name="platform/frameworks/av" />
 <remove-project name="platform/frameworks/base" />
 <remove-project name="platform/frameworks/libs/systemui" />
@@ -111,8 +114,15 @@
 <remove-project name="platform/packages/apps/ThemePicker" />
 <remove-project name="platform/packages/modules/Permission" />
 <remove-project name="platform/packages/services/Telecomm" />
+<remove-project name="platform/system/apex" />
 <remove-project name="platform/system/core" />
+<remove-project name="platform/system/linkerconfig" />
+<remove-project name="platform/system/logging" />
+<remove-project name="platform/system/netd" />
 <remove-project name="platform/system/sepolicy" />
 <remove-project name="platform/system/update_engine" /> 
+
+<!-- Prebuilts -->
+<remove-project name="platform/prebuilts/rust" />
 
 </manifest>

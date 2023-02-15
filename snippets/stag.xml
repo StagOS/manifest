@@ -54,10 +54,12 @@
 <project path="bootable/recovery" name="android_bootable_recovery" remote="stag" />
 
 <!-- External -->
+<project path="external/colorkt" name="android_external_colorkt" remote="stag" />
 <project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="stag" />
 <project path="external/rust/cxx" name="android_external_rust_cxx" remote="stag" />
 <project path="external/aac" name="android_external_aac" remote="stag" />
 <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
+<project path="external/themelib" name="android_external_themelib" remote="stag" />
 <project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
 <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="stag" />
 

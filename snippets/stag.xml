@@ -64,6 +64,7 @@
 <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="stag" />
 
 <!-- Hardware repos -->
+<project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
 <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
 <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag" revision="t13-caf" />
 <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />

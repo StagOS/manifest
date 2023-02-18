@@ -107,6 +107,7 @@
 <remove-project name="platform/frameworks/libs/systemui" />
 <remove-project name="platform/frameworks/native" />
 <remove-project name="platform/frameworks/opt/telephony" />
+<remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/hardware/libhardware" />
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/Launcher3" />

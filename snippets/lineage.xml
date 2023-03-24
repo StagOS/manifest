@@ -6,16 +6,6 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-20.0" />
 
-  <!-- Webview -->
-  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" remote="lineage" revision="main" >
-    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
-    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
-    <linkfile src="README" dest="external/chromium-webview/README" />
-  </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" remote="lineage" revision="main" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" remote="lineage" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" remote="lineage" revision="main" />
-
   <!-- CodeLinaro additions -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />

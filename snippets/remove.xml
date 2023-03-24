@@ -97,7 +97,6 @@
 <remove-project name="platform/build" />
 <remove-project name="platform/build/soong" />
 <remove-project name="platform/external/tinycompress" />
-<remove-project name="platform/external/chromium-webview" />
 <remove-project name="platform/external/android-nn-driver" />
 <remove-project name="platform/external/rust/crates/ring" />
 <remove-project name="platform/external/rust/cxx" />

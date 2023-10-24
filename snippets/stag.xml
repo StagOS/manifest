@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="stag"
+           revision="u14"
+           fetch="https://github.com/StagOS/"  />
+
+  <remote  name="stag-beta"
+           revision="u14"
+           fetch="https://github.com/StagOS-Beta/"  />
+
+  <remote  name="gitlab-stag"
+           revision="u14"
+           fetch="https://gitlab.com/StagOS/"  />
+
+  <remote  name="stagos-devices"
+           fetch="https://github.com/StagOS-Devices"
+           revision="u14" />
+
+<!-- Remove the following projects as we are getting them from lineage/stag -->
+<include name="snippets/remove.xml" />
+
+<!-- Build First -->
+<project path="build/make" name="android_build_make" remote="stag" >
+	<copyfile src="core/root.mk" dest="Makefile" />
+	<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+	<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+	<linkfile src="core" dest="build/core" />
+	<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	<linkfile src="target" dest="build/target" />
+	<linkfile src="tools" dest="build/tools" />
+</project>
+<project path="build/soong" name="android_build_soong" remote="stag">
+	<linkfile src="root.bp" dest="Android.bp" />
+	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
+
+<!-- Frameworks -->
+<project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+<project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="stag" />
+<project path="frameworks/native" name="android_frameworks_native" remote="stag" />
+
+<!-- Core repos -->
+<project path="bionic" name="android_bionic" remote="stag" />
+
+<!-- Sepolicy Repos -->
+<project path="device/lineage/sepolicy" name="android_device_stag_sepolicy" remote="stag" />
+
+<!-- External -->
+<project path="external/tinycompress" name="android_external_tinycompress" remote="stag" />
+<project path="external/libnl" name="android_external_libnl" remote="stag" />
+
+<!-- Hardware repos -->
+<project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
+<project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
+<project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag" />
+
+<!-- Packages -->
+<project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag" />
+<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" />
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stag" />
+
+<!-- Prebuilts
+<project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
+-->
+
+<!-- System Repos -->
+<project path="system/core" name="android_system_core" remote="stag" />
+<project path="system/bpf" name="android_system_bpf" remote="stag" />
+<project path="system/libhidl" name="android_system_libhidl" remote="stag" />
+<project path="system/security" name="android_system_security" remote="stag" />
+<project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
+<project path="system/update_engine" name="android_system_update_engine" remote="stag" />
+<project path="system/vold" name="android_system_vold" remote="stag" />
+<project path="system/netd" name="android_system_netd" remote="stag" />
+
+<!-- Stag Custom repos -->
+<project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+
+<!-- GMS -->
+<project path="vendor/gms" name="vendor_gms" remote="gitlab-stag" />
+
+</manifest>
+

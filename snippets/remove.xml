@@ -48,6 +48,9 @@
 <remove-project name="device/google/tangorpro" />
 <remove-project name="device/google/tangorpro-kernel" />
 <remove-project name="device/google/tangorpro-sepolicy" />
+<remove-project name="device/google/shusky" />
+<remove-project name="device/google/shusky-kernel" />
+<remove-project name="device/google/shusky-sepolicy" />
 <remove-project name="device/google/gs101" />
 <remove-project name="device/google/gs101-sepolicy" />
 <remove-project name="device/google/gs201" />

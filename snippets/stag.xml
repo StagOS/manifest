@@ -87,8 +87,5 @@
 <!-- GMS -->
 <project path="vendor/gms" name="vendor_gms" remote="gitlab-stag" />
 
-<!-- AOSP Repos -->
-<project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" remote="aosp" revision="master" />
-
 </manifest>
 
